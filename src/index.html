@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hustler's League</title>
+	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="main-header">
+		<div class="container">
+			<h1 class="main-header-title">
+				<a href="#home">Hustler's League</a>
+			</h1>
+
+			<nav class="main-header-nav">
+				<a class="main-header-nav-link" href="#home">Home</a>
+				<a class="main-header-nav-link" href="#fill-out">Preencher</a>
+			</nav>
+		</div>
+    </header>
+    <main class="main-content">
+		<div class="container">
+			<section id="home">
+			</section>
+			<section id="fill-out">
+				<h2 class="subtitle">Preencher</h2>
+				<form class="form-client" onsubmit="controller.save(event)">
+					<div>
+						<div class="row">
+							<label for="full-name" class="col-md-3">Nome completo</label>
+							<input id="full-name" type="text" class="col-md-9" pattern="(.*)\s(.*)" 
+								oninvalid="this.setCustomValidity('Por favor preecha seu nome completo.')"
+								oninput="setCustomValidity('')" required />
+						</div>
+						<div class="row">
+							<label for="email" class="col-md-3">E-mail</label>
+							<input id="email" type="email" class="col-md-9" required />
+						</div>
+						<div class="d-row row-reverse">
+							<button class="btn" type="submit">Enviar</button>
+						</div>
+					</div>
+				</form>
+			</section>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<div class="container">
+			<div class="subtitle">&copy; Hustler's League - 2018</div>
+		</div>
+	</footer>
+	<script src="js/libs/firebase.js"></script>
+	<script src="js/libs/jquery-3.3.1.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/models/Interviewee.js"></script>
+	<script src="js/controllers/IntervieweeController.js"></script>
+	<script src="js/dal/IntervieweeDal.js"></script>
+	<script src="js/views/index.js"></script>
+</body>
+</html>

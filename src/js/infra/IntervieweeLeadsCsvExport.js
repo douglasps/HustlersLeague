@@ -1,0 +1,1 @@
+//email, nome, ip, tipo, data_hora

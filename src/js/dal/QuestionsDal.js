@@ -1,7 +1,7 @@
 class QuestionsDal extends BaseDal{
     constructor()
     {
-        super('questionList', QuestionList, 'intervieweeId', 'email', 'questions');
+        super('questionList', QuestionList, 'intervieweeId', 'questions');
     }
 
     saveQuestions(model){

@@ -1,17 +1,12 @@
 class QuestionList{
-    constructor(intervieweeId, email){
+    constructor(intervieweeId, questions){
         this._intervieweeId = intervieweeId;
-        this._email = email;
-        this._questions = [];
+        this._questions = questions;
         Object.freeze(this);
     }
 
     get intervieweeId(){
-        return this._fullName;
-    }
-
-    get email(){
-        return this._email;
+        return this._intervieweeId;
     }
 
     get questions(){

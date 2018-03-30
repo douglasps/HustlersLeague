@@ -5,7 +5,7 @@ class IntervieweeDal extends BaseDal{
     }
 
     saveInterviewee(interviewee){
-        this.save(interviewee);
+        return this.save(interviewee);
     }
 
     getAllInterviewees(){

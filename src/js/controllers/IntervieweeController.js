@@ -3,22 +3,39 @@ class IntervieweeController{
     constructor(){
         this._inputFullName = $('#full-name');
         this._view = new IntervieweeView($('#form'));
-        this._dal = new IntervieweeDal();
+        this._dalInterviewee = new IntervieweeDal();
+        this._dalQuestions = new QuestionsDal();
+        this._questionList = [];
+        this._employee = false;
         IpService.getIp()
             .then(ip => this._ip = ip); 
     }
 
     save(event){
         event.preventDefault();
-        this._dal.saveInterviewee(this._newInterviewee());
+        this._setAnswers();
+        let id = this._dalInterviewee.saveInterviewee(this._newInterviewee());
+        this._dalQuestions.saveQuestions(this._newQuestionList(id));
 
         alert('Enviado com sucesso.');
         
         this._clearInputs();
     }
 
+    _setAnswers(){
+        this._questionList.forEach(q => {
+            q.answer = $('#'+q.question.replace(IntervieweeView.PATTERN, '')).val();
+        });
+
+    }
+
     _newInterviewee(){
-        return new Interviewee(this._inputFullName.val(), this._inputEmail.val(), 'B2C', this._ip, new Date());
+        let email = this._questionList[0].answer;
+        return new Interviewee(this._inputFullName.val(), email, this._employee ? 'B2C' : 'B2B', this._ip, new Date());
+    }
+
+    _newQuestionList(id, questions){
+        return new QuestionList(id, this._questionList);
     }
 
     _clearInputs(){
@@ -27,8 +44,9 @@ class IntervieweeController{
     }
 
     initializeForm(employee){
-        let list = employee ? this._getEmployeeQuestionList() : this._getEmployerQuestionList();
-        this._view.update(list);
+        this._employee = employee;
+        this._questionList = employee ? this._getEmployeeQuestionList() : this._getEmployerQuestionList();
+        this._view.update(this._questionList);
     }
 
     _getEmployerQuestionList(){

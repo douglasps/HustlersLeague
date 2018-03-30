@@ -1,5 +1,9 @@
 class IntervieweeView{
 
+    static get PATTERN(){
+        return /[^\w]/gi;
+    }
+
     constructor(divForm){
         this._divForm = divForm;
     }
@@ -9,7 +13,7 @@ class IntervieweeView{
         ${
             questionList.map(q => {
                 let question = q.question;
-                let id = question.replace(/[^\w]/gi, '');
+                let id = question.replace(IntervieweeView.PATTERN, '');
                 return `
                 <div class="row">		
                     <label for="${id}">${question}</label>

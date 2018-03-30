@@ -1,6 +1,5 @@
 class BaseDal{
     constructor(strReference, typeofModel, ...fields){
-        // Initialize Firebase
 		var config = {
             apiKey: "AIzaSyCHQ0WOTYQWjZqHqp47yQt9Vc1Qh_bXdaY",
             authDomain: "hustler-s-league.firebaseapp.com",
@@ -9,7 +8,9 @@ class BaseDal{
             storageBucket: "hustler-s-league.appspot.com",
             messagingSenderId: "725127233905"
         };
-        firebase.initializeApp(config);
+        if (!firebase.apps.length)
+            firebase.initializeApp(config);
+
         this._reference = firebase.database().ref(strReference);
         this._typeofModel = typeofModel;
         this._fields = fields;
@@ -18,7 +19,7 @@ class BaseDal{
     save(model){
         let obj = {};
         this._fields.forEach(prop => obj[prop] = JSON.stringify(model[prop]), this); 
-        this._reference.push(obj);
+        return this._reference.push(obj).key;
     }
 
     getAll(){

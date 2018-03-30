@@ -25,6 +25,6 @@ class Interviewee{
     }
 
     get datetime(){
-        return this._datetime;
+        return new Date(this._datetime);
     }
 }

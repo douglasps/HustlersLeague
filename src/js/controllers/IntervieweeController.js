@@ -2,11 +2,13 @@ class IntervieweeController{
 
     constructor(){
         this._inputFullName = $('#full-name');
+        this._inputEmail = $('#email');
+        this._emailLabel = $('#email-label');
         this._view = new IntervieweeView($('#form'));
         this._dalInterviewee = new IntervieweeDal();
         this._dalQuestions = new QuestionsDal();
         this._questionList = [];
-        this._employee = false;
+        this._type = 'B2C';
         IpService.getIp()
             .then(ip => this._ip = ip); 
     }
@@ -30,28 +32,29 @@ class IntervieweeController{
     }
 
     _newInterviewee(){
-        let email = this._questionList[0].answer;
-        return new Interviewee(this._inputFullName.val(), email, this._employee ? 'B2C' : 'B2B', this._ip, new Date());
+        return new Interviewee(this._inputFullName.val(), this._inputEmail, this._type, this._ip, new Date());
     }
 
     _newQuestionList(id, questions){
-        return new QuestionList(id, this._questionList);
+        return new QuestionList(id, this._inputEmail.val(), this._questionList);
     }
 
     _clearInputs(){
-        this._inputFullName.text = '';
+        this._inputFullName.val('');
+        this._inputEmail.val('');
+        this._view.clear();
         this._inputFullName.focus();
     }
 
     initializeForm(employee){
-        this._employee = employee;
+        this._type = employee ? 'B2C' : 'B2B'
+        this._emailLabel.text(employee ? 'Qual o seu e-mail?' : 'Qual o seu e-mail corporativo?');
         this._questionList = employee ? this._getEmployeeQuestionList() : this._getEmployerQuestionList();
         this._view.update(this._questionList);
     }
 
     _getEmployerQuestionList(){
         let list = [
-            new Question('Qual o seu e-mail corporativo?'),
             new Question('Qual o nome da empresa que você trabalha (Nome do contratante)?'),
             new Question('Qual a área de atuação da (Nome da empresa)?'),
             new Question('Qual a sua função na (Nome da empresa)?'),
@@ -65,7 +68,6 @@ class IntervieweeController{
 
     _getEmployeeQuestionList(){
         let list = [
-            new Question('Qual o seu e-mail?'),
             new Question('Qual segmento de empresa você gostaria de trabalhar?'),
             new Question('Você costuma enviar o seu currículo ou preenche algum formulário de candidatura?'),
             new Question('Como você apresenta as suas experiências com vendas?'),

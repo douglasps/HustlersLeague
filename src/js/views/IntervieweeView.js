@@ -26,8 +26,13 @@ class IntervieweeView{
     }
 
     update(questionList){
+        this.clear();
         let str = this._template(questionList);
         let html = $(str);
         this._divForm.append(html);
+    }
+
+    clear(){
+        this._divForm.empty();
     }
 }

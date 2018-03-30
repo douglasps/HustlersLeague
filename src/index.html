@@ -31,6 +31,14 @@
 					<div class="col-md-10">
 						<form class="form-client" onsubmit="controller.save(event)">
 							<div>
+								<div id="type-selector" class="row">
+									<div class="col-6">
+										<button id="type-employer" class="btn"/>Contratante</label>
+									</div>
+									<div class="col-6">
+										<button id="type-employee" class="btn"/>Candidato</label>	
+									</div>               
+								</div>
 								<div class="row">
 									<label for="full-name">Nome completo</label>
 								</div>
@@ -39,23 +47,19 @@
 										oninvalid="this.setCustomValidity('Por favor preecha seu nome completo.')"
 										oninput="setCustomValidity('')" required tabindex="1"/>
 								</div>
-
-								<div id="type-selector" class="row">
-									<div class="col-6">
-										<label id="type-employer"/>Contratante</label>
+								<div class="row">
+										<label id="email-label" for="email">E-mail</label>
 									</div>
-									<div class="col-6">
-										<label id="type-employee"/>Candidato</label>	
-									</div>               
-					        	</div>
-
+									<div class="row">	
+										<input id="email" type="email" class="col-md-10" required tabindex="2"/>
+									</div>
 					        	<div id="form">
 								</div>
 
 							</div>
 							<div class="row row-reverse">
-									<button class="btn" type="submit">Enviar</button>
-								</div>
+								<button class="btn" type="submit">Enviar</button>
+							</div>
 						</form>
 					</div>
 				</div>		

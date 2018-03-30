@@ -41,51 +41,126 @@
 								</div>
 
 								<div class="row">
-									<label for="email">E-mail</label>
-								</div>	
-								<div class="row">
-									<input id="email" type="email" class="col-md-10" required tabindex="2">
-								</div>
-
-								<div class="row">		
-									<label for="question1">Você é HUSTLER?</label>
-								</div>
-								<div class="row">
-									<input id="question1" name="question1" type="text" class="col-md-3" required tabindex="3">
-									<div class="col-md-1"></div>
-									<div class="col-2">
-										<input type="radio" name="tipo" value="contratante" required /> Contratante
-									</div>	
-									<div class="col-md-1"></div>
-									<div class="col-2">
-						                <input type="radio" name="tipo" value="candidato" required /> Candidato
-					                </div>
+									<div class="col-6">
+										<label required data-toggle="collapse" data-target="#formEmployer"/>Contratante</label>
+									</div>
+									<div class="col-6">
+										<label required data-toggle="collapse" data-target="#formEmployee"/>Candidato</label>	
+									</div>               
 					        	</div>
 
-								<div class="row">		
-									<label for="question2">Você já teve problema com análise de competências técnicas em um processo seletivo?</label>
-								</div>	
-								<div class="row">
-									<textarea id="question2" name="question2" type="text" class="col-md-10" cols="30" rows="5" required tabindex="4"></textarea> 	
+					        	<div id="formEmployer" class="collapse">
+									<div class="row">
+										<label for="email">Qual o seu e-mail corporativo?</label>
+									</div>	
+									<div class="row">
+										<input id="email" type="email" class="col-md-10" required tabindex="2">
+									</div>
+
+									<div class="row">		
+										<label for="question1">Qual o nome da empresa que você trabalha (Nome do contratante)?</label>
+									</div>
+									<div class="row">
+										<textarea id="question1" name="question1" type="text" class="col-md-10" cols="10" rows="3" required tabindex="3"></textarea> 
+									</div>
+
+									<div class="row">		
+										<label for="question2">Qual a área de atuação da (Nome da empresa)?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question2" name="question2" type="text" class="col-md-10" cols="10" rows="3" required tabindex="4"></textarea> 	
+									</div>
+
+									<div class="row">		
+										<label for="question3">Qual a sua função na (Nome da empresa)?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question3" name="question3" type="text" class="col-md-10" cols="10" rows="3" required tabindex="5"></textarea>
+									</div>
+
+									<div class="row">		
+										<label for="question4">Como é o seu processo de contratação de um(a) vendedor?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question4" name="question4"type="text" class="col-md-10" cols="10" rows="3" value="" required tabindex="6"></textarea> 
+									</div>
+
+									<div class="row">		
+										<label for="question5">Como seria uma ferramenta perfeita para o seu processo seletivo na contratação de vendedores?</label>
+									</div>
+									<div class="row">
+										<textarea id="question5" name="question5" type="text" class="col-md-10" cols="10" rows="3" required tabindex="3"></textarea> 
+									</div>
+
+									<div class="row">		
+										<label for="question6">Quanto você estaria disponível para investir em uma ferramenta para solucionar este problema?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question6" name="question6" type="text" class="col-md-10" cols="10" rows="3" required tabindex="4"></textarea> 	
+									</div>
+
+									<div class="row">		
+										<label for="question7">Que outras soluções acredita serem possíveis?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question7" name="question7" type="text" class="col-md-10" cols="10" rows="3" required tabindex="5">		
+										</textarea>
+									</div>
+									<div class="d-row row-reverse">
+										<button class="btn" type="submitEmployer">Enviar</button>
+									</div>
+								</div>
+									
+
+					        	<div id="formEmployee" class="collapse">
+									<div class="row">
+										<label for="email">Qual o seu e-mail?</label>
+									</div>	
+									<div class="row">
+										<input id="email" type="email" class="col-md-10" required tabindex="2">
+									</div>
+
+									<div class="row">		
+										<label for="question1">Qual segmento de empresa você gostaria de trabalhar?</label>
+									</div>
+									<div class="row">
+										<textarea id="question1" name="question1" type="text" class="col-md-10" cols="10" rows="3" required tabindex="3"></textarea> 
+									</div>
+
+									<div class="row">		
+										<label for="question2">Você costuma enviar o seu currículo ou preenche algum formulário de candidatura?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question2" name="question2" type="text" class="col-md-10" cols="10" rows="3" required tabindex="4"></textarea> 	
+									</div>
+
+									<div class="row">		
+										<label for="question3">Como você apresenta as suas experiências com vendas?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question3" name="question3" type="text" class="col-md-10" cols="10" rows="3" required tabindex="5"></textarea>
+									</div>
+
+									<div class="row">		
+										<label for="question4">Quais dificuldades você encontra no momento em que participa de um processo seletivo de RH?</label>
+									</div>	
+									<div class="row">
+										<textarea id="question4" name="question4"type="text" class="col-md-10" cols="10" rows="3" value="" required tabindex="6"></textarea> 
+									</div>
+
+									<div class="row">		
+										<label for="question5">Quais foram os pontos positivos e os negativos do processo seletivo que você participou?</label>
+									</div>
+									<div class="row">
+										<textarea id="question5" name="question5" type="text" class="col-md-10" cols="10" rows="3" required tabindex="3">
+										</textarea> 
+									</div>
+
+									<div class="d-row row-reverse">
+										<button class="btn" type="submitEmployee">Enviar</button>
+									</div>
 								</div>
 
-								<div class="row">		
-									<label for="question3">Como você lidou ou está lidando com isso?</label>
-								</div>	
-								<div class="row">
-									<textarea id="question3" name="question3" type="text" class="col-md-10" cols="30" rows="5" required tabindex="5"></textarea> 	
-								</div>
-
-								<div class="row">		
-									<label for="question4">Qual seria a solução ideal para resolver isso?</label>
-								</div>	
-								<div class="row">
-									<textarea id="question4" name="question4"type="text" class="col-md-10" cols="30" rows="5" value="" required tabindex="6"></textarea> 
-								</div>
-
-								<div class="d-row row-reverse">
-									<button class="btn" type="submit">Enviar</button>
-								</div>
 							</div>
 						</form>
 					</div>

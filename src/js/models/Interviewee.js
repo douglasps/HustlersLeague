@@ -4,7 +4,7 @@ class Interviewee{
         this._email = email;
         this._type = type;
         this._ip = ip;
-        this._datetime = datetime;
+        this._datetime = typeof datetime == "Date" ? datetime : new Date(datetime);
         Object.freeze(this);
     }
 

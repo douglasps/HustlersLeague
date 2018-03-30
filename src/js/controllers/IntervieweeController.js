@@ -3,13 +3,15 @@ class IntervieweeController{
     constructor(){
         this._inputFullName = $('#full-name');
         this._inputEmail = $('#email');
-
+     
         this._dal = new IntervieweeDal();
+        IpService.getIp()
+            .then(ip => this._ip = ip); 
     }
 
     save(event){
         event.preventDefault();
-        this._dal.save(this._newInterviewee());
+        this._dal.saveInterviewee(this._newInterviewee());
 
         alert('Enviado com sucesso.');
         
@@ -17,7 +19,7 @@ class IntervieweeController{
     }
 
     _newInterviewee(){
-        return new Interviewee(this._inputFullName.val(), this._inputEmail.val(), 'B2C', '127.0.0.1', new Date());
+        return new Interviewee(this._inputFullName.val(), this._inputEmail.val(), 'B2C', this._ip, new Date());
     }
 
     _clearInputs(){

@@ -11,7 +11,7 @@ class IntervieweeLeadsCsvExport{
         this._dalInterviewee.getAllInterviewees()
         .then(items => {
             items.forEach(i =>{
-                let columns = [i.email, i.fullName, i.ip, i.type, i.datetime];
+                let columns = [i.email, i.fullName, i.ip, i.type, DateHelper.dateToText(i.datetime)];
                 let row = columns.join(",");
                 csvContent += row + "\r\n";
             });

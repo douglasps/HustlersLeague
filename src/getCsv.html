@@ -7,9 +7,11 @@
 	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <button id="btn-get-lead-csv" >Lead</button>
-    <button id="btn-get-questions-csv" >Perguntas</button>
+<body class="h-100 d-flex justify-content-around ">
+    <div class="align-middle">
+		<button id="btn-get-lead-csv" >Lead</button>
+		<button id="btn-get-questions-csv" >Perguntas</button>
+	</div>
 
 	<script src="js/libs/firebase.js"></script>
     <script src="js/libs/jquery-3.3.1.min.js"></script>
@@ -22,6 +24,7 @@
     <script src="js/dal/QuestionsDal.js"></script>
 	<script src="js/infra/IntervieweeLeadsCsvExport.js"></script>
 	<script src="js/infra/IntervieweePersonCsvExport.js"></script>
+	<script src="js/helpers/DateHelper.js"></script>
     <script src="js/views/getCsv.js"></script>
 </body>
 </html>

@@ -32,7 +32,7 @@ class IntervieweeController{
     }
 
     _newInterviewee(){
-        return new Interviewee(this._inputFullName.val(), this._inputEmail, this._type, this._ip, new Date());
+        return new Interviewee(this._inputFullName.val(), this._inputEmail.val(), this._type, userip, new Date());
     }
 
     _newQuestionList(id, questions){

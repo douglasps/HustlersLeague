@@ -9,6 +9,7 @@ class IntervieweeController{
         this._dalQuestions = new QuestionsDal();
         this._questionList = [];
         this._type = 'B2C';
+        this._questionType = 'CONTRATADO';
         IpService.getIp()
             .then(ip => this._ip = ip); 
     }
@@ -36,7 +37,7 @@ class IntervieweeController{
     }
 
     _newQuestionList(id, questions){
-        return new QuestionList(id, this._inputEmail.val(), this._questionList);
+        return new QuestionList(id, this._inputEmail.val(), this._questionType, this._questionList);
     }
 
     _clearInputs(){
@@ -47,7 +48,8 @@ class IntervieweeController{
     }
 
     initializeForm(employee){
-        this._type = employee ? 'B2C' : 'B2B'
+        this._type = employee ? 'B2C' : 'B2B';
+        this._questionType = employee ? 'CONTRATADO' : 'CONTRATANTE' ;
         this._emailLabel.text(employee ? 'Qual o seu e-mail?' : 'Qual o seu e-mail corporativo?');
         this._questionList = employee ? this._getEmployeeQuestionList() : this._getEmployerQuestionList();
         this._view.update(this._questionList);

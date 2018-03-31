@@ -1,8 +1,9 @@
 class QuestionList{
-    constructor(intervieweeId, email, questions){
+    constructor(intervieweeId, email, type, questions){
         this._intervieweeId = intervieweeId;
         this._email = email;
         this._questions = questions;
+        this._type = type;
         Object.freeze(this);
     }
 
@@ -12,6 +13,10 @@ class QuestionList{
 
     get email(){
         return this._email;
+    }
+
+    get type(){
+        return this._type;
     }
 
     get questions(){

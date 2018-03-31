@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hustler's League</title>
+	<link rel="stylesheet" href="css/libs/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button id="btn-get-lead-csv" >Lead</button>
+    <button id="btn-get-questions-csv" >Perguntas</button>
+
+	<script src="js/libs/firebase.js"></script>
+    <script src="js/libs/jquery-3.3.1.min.js"></script>
+    
+	<script src="js/models/Interviewee.js"></script>
+	<script src="js/models/Question.js"></script>
+	<script src="js/models/QuestionList.js"></script>
+	<script src="js/dal/BaseDal.js"></script>
+	<script src="js/dal/IntervieweeDal.js"></script>
+    <script src="js/dal/QuestionsDal.js"></script>
+	<script src="js/infra/IntervieweeLeadsCsvExport.js"></script>
+	<script src="js/infra/IntervieweePersonCsvExport.js"></script>
+    <script src="js/views/getCsv.js"></script>
+</body>
+</html>

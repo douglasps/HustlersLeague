@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hustler's League - teste</title>
+
+    <link rel="stylesheet" href="css/libs/bootstrap.min.css">
+
+    <script src="js/libs/firebase.js"></script>
+	<script src="js/libs/jquery-3.3.1.min.js"></script>
+	<script src="js/libs/bootstrap.min.js"></script>
+    
+    <script src="js/models/Interviewee.js"></script>
+	<script src="js/models/Question.js"></script>
+	<script src="js/models/QuestionList.js"></script>
+    <script src="js/dal/BaseDal.js"></script>
+    <script src="js/dal/IntervieweeDal.js"></script>
+	<script src="js/dal/QuestionsDal.js"></script>
+    <script>
+        var intervieweeDal = new IntervieweeDal();
+        var questionsDal = new QuestionsDal();
+
+        var questionsList = [];
+
+        questionsDal.getAll()
+        .then(items => {
+            items.forEach(i => {
+                questionsList.push(i);
+            });
+
+        var id = 0;
+        intervieweeDal.getAll()
+            .then(items => {
+                items.forEach(i =>{
+                    $('#interviewees')
+                        .append($(`
+                        <tr>
+                            <td>${i.fullName}</td>
+                            <td>${i.email}</td>
+                            <td>${i.type}</td>
+                            <td>${i.ip}</td>
+                            <td>${i.datetime}</td>
+                            <td><a class="btn btn-primary" data-toggle="collapse" href="#collapseExample${id}" 
+                                role="button" aria-expanded="false" aria-controls="collapseExample${id}">Expandir/Recolher</a>
+                                <div class="collapse" id="collapseExample${id}">
+                                    <table>
+                                        <thead>
+                                            <th>Pergunta</th>
+                                            <th>Resposta</th>
+                                        </thead>
+                                        <tbody>
+                                            ${ 
+                                                questionsList
+                                                    .filter(q => q.email == i.email)
+                                                    .reduce((total, questions) => total.concat(questions.questions), [])
+                                                    .map(q => `
+                                                        <tr>
+                                                            <td>${q._question}</td>
+                                                            <td>${q._answer}</td>
+                                                        </tr>
+                                                        `).join('')
+                                            }
+                                        </tbody>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        `));
+                    id++;
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <table class="table">
+        <thead>
+            <th>Nome completo</th>
+            <th>Email</th>
+            <th>Tipo</th>
+            <th>IP</th>
+            <th>Data</th>
+            <th>Respostas</th>
+        </thead>
+        <tbody  id="interviewees">
+        </tbody>
+    </div>
+</body>
+</html>

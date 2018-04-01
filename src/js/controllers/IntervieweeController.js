@@ -22,6 +22,7 @@ class IntervieweeController{
 
         alert('Enviado com sucesso.');       
         this._clearInputs();
+        window.location.href = "thanksPage.html";
     }
 
     _setAnswers(){
@@ -56,9 +57,9 @@ class IntervieweeController{
 
     _getEmployerQuestionList(){
         let list = [
-            new Question('Qual o nome da empresa que você trabalha (Nome do contratante)?', null, 'glyphicon glyphicon-home'),
-            new Question('Qual a área de atuação da (Nome da empresa)?', null, 'glyphicon glyphicon-briefcase' ),
-            new Question('Qual a sua função na (Nome da empresa)?', null, 'glyphicon glyphicon-pencil'),
+            new Question('Qual o nome da empresa em que você trabalha?', null, 'glyphicon glyphicon-home'),
+            new Question('Qual a área de atuação da sua empresa?', null, 'glyphicon glyphicon-briefcase' ),
+            new Question('Qual a sua função na empresa?', null, 'glyphicon glyphicon-pencil'),
             new Question('Como é o seu processo de contratação de um(a) vendedor?', null, 'glyphicon glyphicon-search'),
             new Question('Como seria uma ferramenta perfeita para o seu processo seletivo na contratação de vendedores?', null, 'glyphicon glyphicon-cog'),
             new Question('Quanto você estaria disponível para investir em uma ferramenta para solucionar este problema?', null, 'glyphicon glyphicon-usd'),

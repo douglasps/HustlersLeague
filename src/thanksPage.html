@@ -50,93 +50,15 @@
 <body>
     <header>
 		<div id="logoSection" class="container">
-			<img id="logo" src="img/hr-logo.png" alt="HRtechSolutions">
+			<img src="img/hr-logo.png" alt="HRtechSolutions">
 		</div>
     </header>
 
-	<div id="imgBackground">
+	<div id="thanksNote" class="container">
+		<h1>Agradecemos por ter preenchido nossa pesquisa!</h1>
+		<h2>Em breve, enviaremos o infográfico para o seu e-mail.</h2>
 
-		<section id="home" class="container">
-		    <div id="main-title">
-	    		<h1>DESCUBRA COMO O MERCADO BRASILEIRO ESTÁ 
-	    		<br> CONTRATANDO PROFISSIONAIS DE VENDAS</h1>
-		    </div>
-
-		    <div id="textContent">
-	    		<h2>Queremos entender como funciona a 
-    			<br/>seleção de profissionais de vendas para 
-    			<br/>desenvolver uma 
-    			<span class="colorWord">solução</span>
-    			que agregue nos 
-    			<br/>interesses dos candidatos e das empresas.</h2>
-		    </div>
-		</section>
-
-		<section id="fill-out" class="container">
-
-			<div id="type-selector" class="row ">
-				<div class="col-md-3">
-					<button id="type-employer" class="btnType"/>Contratante</label>
-				</div>
-				<div class="col-md-3">
-					<button id="type-employee" class="btnType"/>Candidato</label>	
-				</div>               
-			</div>
-		</section>	
-	</div>	
-
-	
-		<section id="formQuestions" class="container">
-			<div class="row">
-				<div class="col-md-offset-2 col-md-9">
-					<form class="form-client" onsubmit="controller.save(event)">
-						<div id="nameEmailInfo">
-							<div class="row">
-								<div class="col-md-5">
-									<div class="row itemForm">
-										<label for="full-name">Nome completo</label>
-									</div>
-									<div class="row">
-										<div class="input-group">
-										  <span class="input-group-addon" id="basic-addon1">
-										  	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-										  </span>
-										  <input id="full-name" name="full-name" autofocus="" type="text" class="form-control itemForm" aria-describedby="basic-addon1"					  
-										  	pattern="(.*)\s(.*)" 
-											oninvalid="this.setCustomValidity('Por favor preecha seu nome completo.')"
-											oninput="setCustomValidity('')" required tabindex="1"/>		
-										</div>	
-									</div>
-								</div>
-								<div class="col-md-offset-1 col-md-5">
-									<div class="row itemForm">
-										<label id="email-label" for="email">E-mail</label>
-									</div>
-									<div class="row">
-										<div class="input-group">										
-											<span class="input-group-addon" id="basic-addon1">
-												<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-											</span>										
-											<input id="email" type="email" class="form-control itemForm" aria-describedby="basic-addon1" required tabindex="2"/>
-										</div>	
-									</div>									
-								</div>
-							</div>
-
-							<div class="row" id="form">
-
-							</div>
-
-							<div class="row row-reverse">
-								<div class="col-md-offset-8 col-md-3">
-								<button id="btnSummit" class="btnType" type="submit">Enviar</button>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>		
-		</section>
+	</div>
 
 	<footer class="main-footer">
 		<div class="container row">

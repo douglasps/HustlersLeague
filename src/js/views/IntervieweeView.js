@@ -15,12 +15,19 @@ class IntervieweeView{
                 let question = q.question;
                 let id = question.replace(IntervieweeView.PATTERN, '');
                 return `
-                <div class="row">		
+
+                <div class="row col-md-11 itemForm">       
                     <label for="${id}">${question}</label>
                 </div>
-                <div class="row">
-                    <textarea id="${id}" name="${id}" type="text" class="col-md-10" cols="10" rows="3" required tabindex="3"></textarea> 
-                </div>`})
+
+                <div class="input-group col-md-11 itemForm">
+                  <span class="input-group-addon" id="basic-addon1">
+                  <span class="${q.symbol}" aria-hidden="true"></span>
+                  </span>
+                  <textarea id="${id}" name="${id}" type="text" class="form-control" aria-describedby="basic-addon1" cols="10" rows="3"></textarea>
+                </div>
+                `
+            })
                 .join('')
         }</div>`;
     }

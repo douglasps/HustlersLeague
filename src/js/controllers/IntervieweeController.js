@@ -57,24 +57,24 @@ class IntervieweeController{
 
     _getEmployerQuestionList(){
         let list = [
-            new Question('Qual o nome da empresa que você trabalha (Nome do contratante)?'),
-            new Question('Qual a área de atuação da (Nome da empresa)?'),
-            new Question('Qual a sua função na (Nome da empresa)?'),
-            new Question('Como é o seu processo de contratação de um(a) vendedor?'),
-            new Question('Como seria uma ferramenta perfeita para o seu processo seletivo na contratação de vendedores?'),
-            new Question('Quanto você estaria disponível para investir em uma ferramenta para solucionar este problema?'),
-            new Question('Que outras soluções acredita serem possíveis?')
+            new Question('Qual o nome da empresa que você trabalha (Nome do contratante)?', null, 'glyphicon glyphicon-home'),
+            new Question('Qual a área de atuação da (Nome da empresa)?', null, 'glyphicon glyphicon-briefcase' ),
+            new Question('Qual a sua função na (Nome da empresa)?', null, 'glyphicon glyphicon-pencil'),
+            new Question('Como é o seu processo de contratação de um(a) vendedor?', null, 'glyphicon glyphicon-search'),
+            new Question('Como seria uma ferramenta perfeita para o seu processo seletivo na contratação de vendedores?', null, 'glyphicon glyphicon-cog'),
+            new Question('Quanto você estaria disponível para investir em uma ferramenta para solucionar este problema?', null, 'glyphicon glyphicon-usd'),
+            new Question('Como você avalia a qualidade técnica do candidato de vendas?', null, 'glyphicon glyphicon-stats')
         ];
         return list;
     }
 
     _getEmployeeQuestionList(){
         let list = [
-            new Question('Qual segmento de empresa você gostaria de trabalhar?'),
-            new Question('Você costuma enviar o seu currículo ou preenche algum formulário de candidatura?'),
-            new Question('Como você apresenta as suas experiências com vendas?'),
-            new Question('Quais dificuldades você encontra no momento em que participa de um processo seletivo de RH?'),
-            new Question('Quais foram os pontos positivos e os negativos do processo seletivo que você participou?')
+            new Question('Qual segmento de empresa você gostaria de trabalhar?', null, 'glyphicon glyphicon-search'),
+            new Question('Você costuma enviar o seu currículo ou preenche algum formulário de candidatura?', null, 'glyphicon glyphicon-file'),
+            new Question('Como você apresenta as suas experiências com vendas?', null, 'glyphicon glyphicon-list-alt'),
+            new Question('Quais dificuldades você encontra no momento em que participa de um processo seletivo de RH?', null, 'glyphicon glyphicon-exclamation-sign'),
+            new Question('Quais foram os pontos positivos e os negativos do processo seletivo que você participou?', null, 'glyphicon glyphicon-sort')
         ];
         return list;
     }

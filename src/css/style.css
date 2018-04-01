@@ -1,0 +1,91 @@
+#nameEmailInfo, #btnSummit{
+	display: none;
+}
+
+#logoSection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#imgBackground{
+    padding-top: 60px;
+    background-color: #80808029;
+    padding-bottom: 60px;
+}
+
+#textContent{
+	padding-bottom: 30px;
+}
+
+.colorWord{
+	color: #00cca3;
+	font-weight: bold;  	
+}
+
+.btnType{
+    padding: 15px;
+
+    background-color: #00cca3;
+
+    border-radius: 30px;
+    border: 0px;
+
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: ease-in-out 0.3s;
+    width: 100%;
+}
+
+.btnType:hover {
+  	background-color:#00b38f;
+  	padding: 15px;
+  	outline: none;
+}
+
+.btnType:active {
+  	outline: none;
+}
+
+.btnType:focus {
+  	outline: none;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #00cca3;
+	line-height: 40px;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	color: #000;
+	font-size: 1.8em; 
+    line-height: 35px;	  
+}
+
+#formQuestions{
+	padding-top: 60px;
+	max-width: 100%;	
+}
+
+#btnSummit{
+	margin-top: 20px;
+}
+
+.formControl{
+	width: 100%!important;
+}
+
+.itemForm{
+	padding-top: 15px;
+}
+
+.main-footer{
+
+}

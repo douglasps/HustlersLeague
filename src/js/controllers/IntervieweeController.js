@@ -20,8 +20,7 @@ class IntervieweeController{
         let id = this._dalInterviewee.saveInterviewee(this._newInterviewee());
         this._dalQuestions.saveQuestions(this._newQuestionList(id));
 
-        alert('Enviado com sucesso.');
-        
+        alert('Enviado com sucesso.');       
         this._clearInputs();
     }
 

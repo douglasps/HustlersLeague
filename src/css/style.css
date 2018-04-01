@@ -44,6 +44,15 @@
 .btnType:hover {
   	background-color:#00b38f;
   	padding: 15px;
+  	outline: none;
+}
+
+.btnType:active {
+  	outline: none;
+}
+
+.btnType:focus {
+  	outline: none;
 }
 
 h1{

@@ -88,8 +88,7 @@
 	
 		<section id="formQuestions" class="container">
 			<div class="row">
-				<div class="col-md-2"></div>
-				<div class="col-md-9">
+				<div class="col-md-offset-2 col-md-9">
 					<form class="form-client" onsubmit="controller.save(event)">
 						<div id="nameEmailInfo">
 							<div class="row">
@@ -102,15 +101,14 @@
 										  <span class="input-group-addon" id="basic-addon1">
 										  	<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
 										  </span>
-										  <input id="full-name" name="full-name" type="text" class="form-control itemForm" aria-describedby="basic-addon1"					  
+										  <input id="full-name" name="full-name" autofocus="" type="text" class="form-control itemForm" aria-describedby="basic-addon1"					  
 										  	pattern="(.*)\s(.*)" 
 											oninvalid="this.setCustomValidity('Por favor preecha seu nome completo.')"
 											oninput="setCustomValidity('')" required tabindex="1"/>		
 										</div>	
 									</div>
 								</div>
-								<div class="col-md-1"></div>
-								<div class="col-md-5">
+								<div class="col-md-offset-1 col-md-5">
 									<div class="row itemForm">
 										<label id="email-label" for="email">E-mail</label>
 									</div>
@@ -130,8 +128,7 @@
 							</div>
 
 							<div class="row row-reverse">
-								<div class="col-md-8"></div>
-								<div class="col-md-3">
+								<div class="col-md-offset-8 col-md-3">
 								<button id="btnSummit" class="btnType" type="submit">Enviar</button>
 								</div>
 							</div>
@@ -143,8 +140,8 @@
 
 
 	<footer class="main-footer">
-		<div class="container">
-			<div class="subtitle">&copy; Hustler's League - 2018</div>
+		<div class="container row">
+			<div class="subtitle col-md-offset-6 col-md-6">&copy; Hustler's League - 2018</div>
 		</div>
 	</footer>
 	<script src="js/libs/firebase.js"></script>

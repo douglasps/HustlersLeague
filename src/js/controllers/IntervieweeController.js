@@ -22,6 +22,7 @@ class IntervieweeController{
 
         alert('Enviado com sucesso.');       
         this._clearInputs();
+        window.location.href = "thanksPage.html";
     }
 
     _setAnswers(){

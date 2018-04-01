@@ -86,6 +86,27 @@ h2{
 	padding-top: 15px;
 }
 
-.main-footer{
+/*Mobile Style*/
+@media only screen and (max-device-width: 992px){
+
+	#imgBackground{
+		padding-top: 20px;
+	}
+
+	h1{
+		font-size: 1.5em;
+	}
+
+	h2{
+		font-size: 1.2em;
+	}
+	.btnType{
+		margin-bottom: 20px;
+	}
+
+	body{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
 
 }

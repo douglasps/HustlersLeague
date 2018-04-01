@@ -23,7 +23,7 @@ class IntervieweeController{
 
         alert('Enviado com sucesso.'); 
           
-        EmailSenderService.sendEmail(interviewee.email);
+        EmailSenderService.sendEmail(interviewee);
         
         this._clearInputs();
         window.location.href = "thanksPage.html";

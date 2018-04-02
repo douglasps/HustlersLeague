@@ -9,9 +9,12 @@
 }
 
 #imgBackground{
-    padding-top: 60px;
-    background-color: #80808029;
-    padding-bottom: 60px;
+	background-image: url("../img/Landing-Page-Home-Background.jpg");
+	background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;	
+    padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 #textContent{
@@ -59,6 +62,7 @@ h1{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: #00cca3;
+	font-size: 2.5em;
 	line-height: 40px;
 }
 
@@ -95,6 +99,118 @@ h2{
 	height: 100%;
 	padding-top: 60px;
 }
+
+.iconCompany:before{
+    content: "";
+    display: block;	
+	background: url("../img/offices-buildings.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconTarget:before{
+    content: "";
+    display: block;	
+	background: url("../img/target.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+
+.iconBusiness:before{
+    content: "";
+    display: block;	
+	background: url("../img/businessman.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconHandShake:before{
+    content: "";
+    display: block;	
+	background: url("../img/handshake.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconPuzzle:before{
+    content: "";
+    display: block;	
+	background: url("../img/puzzle-piece.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconTools:before{
+    content: "";
+    display: block;	
+	background: url("../img/settings-symbol-of-a-cross-of-tools.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconWallet:before{
+    content: "";
+    display: block;	
+	background: url("../img/wallet-filled-money-tool.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconMedal:before{
+    content: "";
+    display: block;	
+	background: url("../img/medal-of-award.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconPaper:before{
+    content: "";
+    display: block;	
+	background: url("../img/verified-text-paper.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
+.iconUpDown:before{
+    content: "";
+    display: block;	
+	background: url("../img/up-and-down-opposite-arrows-symbol-side-by-side.png") no-repeat;
+    background-size: 18px 18px;	
+	width: 20px;
+	height: 20px;
+    float: left;
+    margin: 0;	
+}
+
 
 /*Mobile Style*/
 @media only screen and (max-device-width: 992px){

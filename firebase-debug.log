@@ -1,0 +1,784 @@
+[debug] [2018-04-01T16:25:42.480Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:25:42.487Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:25:42.488Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:25:42.488Z] Platform:      win32
+[debug] [2018-04-01T16:25:42.488Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:25:42.489Z] Time:          Sun Apr 01 2018 13:25:42 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:25:42.489Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:25:42.528Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:25:42.530Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:25:42.537Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:25:42 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:25:43.479Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:25:43.482Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:25:43 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:25:44.197Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:25:44.199Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:25:44 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:25:45.126Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:25:48.421Z] Fetching environment
+[debug] [2018-04-01T16:25:48.430Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:25:48 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:25:48.431Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:25:48 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:25:49.948Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:25:49.950Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:25:50.301Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:26:04.716Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:32:57.960Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:32:57.966Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:32:57.967Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:32:57.967Z] Platform:      win32
+[debug] [2018-04-01T16:32:57.967Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:32:57.968Z] Time:          Sun Apr 01 2018 13:32:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:32:57.969Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:32:58.006Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:32:58.008Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:32:58.016Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:32:58 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:32:59.155Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:32:59.157Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:32:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:32:59.862Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:32:59.864Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:32:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:33:00.791Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:33:04.066Z] Fetching environment
+[debug] [2018-04-01T16:33:04.075Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:33:04 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:33:04.076Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:33:04 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:33:04.849Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:33:05.646Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:33:05.647Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:33:14.773Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:35:06.249Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:35:06.255Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:35:06.256Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:35:06.256Z] Platform:      win32
+[debug] [2018-04-01T16:35:06.256Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:35:06.258Z] Time:          Sun Apr 01 2018 13:35:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:35:06.258Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:35:06.295Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:35:06.298Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:35:06.305Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:35:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:35:07.265Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:35:07.267Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:35:07 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:35:07.910Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:35:07.913Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:35:07 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:35:08.784Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:35:11.941Z] Fetching environment
+[debug] [2018-04-01T16:35:11.948Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:35:11 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:35:11.949Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:35:11 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:35:13.349Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:35:13.350Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:35:13.699Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:35:21.938Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:36:57.368Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:36:57.375Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:36:57.376Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:36:57.376Z] Platform:      win32
+[debug] [2018-04-01T16:36:57.376Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:36:57.377Z] Time:          Sun Apr 01 2018 13:36:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:36:57.377Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:36:57.415Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:36:57.417Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:36:57.424Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:36:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:36:58.342Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:36:58.344Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:36:58 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:36:59.102Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:36:59.105Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:36:59 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:37:00.010Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:37:03.276Z] Fetching environment
+[debug] [2018-04-01T16:37:03.286Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:37:03 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:37:03.287Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:37:03 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:37:04.845Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:37:04.846Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:37:05.245Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:37:12.936Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:39:04.797Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:39:04.806Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:39:04.807Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:39:04.807Z] Platform:      win32
+[debug] [2018-04-01T16:39:04.807Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:39:04.809Z] Time:          Sun Apr 01 2018 13:39:04 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:39:04.809Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:39:04.848Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:39:04.850Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:39:04.857Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:39:04 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:39:06.063Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:39:06.065Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:39:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:39:06.770Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:39:06.772Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:39:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:39:07.628Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:39:10.886Z] Fetching environment
+[debug] [2018-04-01T16:39:10.894Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:39:10 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:39:10.895Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:39:10 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:39:12.490Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:39:12.491Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:39:12.839Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:39:23.526Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:41:56.710Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:41:56.716Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:41:56.717Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:41:56.717Z] Platform:      win32
+[debug] [2018-04-01T16:41:56.717Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:41:56.719Z] Time:          Sun Apr 01 2018 13:41:56 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:41:56.719Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:41:56.760Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:41:56.763Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:41:56.773Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-01T16:41:56.773Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/_aQ9z3XwXogATlw8u22Df73KIMHeWMvURZvWEockLXU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 01 2018 13:41:56 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:41:57.244Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:41:57.331Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:41:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:41:58.124Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:41:58.126Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:41:58 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:41:58.923Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:41:58.926Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:41:58 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:41:59.797Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:42:03.123Z] Fetching environment
+[debug] [2018-04-01T16:42:03.131Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:42:03 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:42:03.132Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:42:03 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:42:03.918Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:42:03.919Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:42:04.532Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:42:15.858Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:43:28.671Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:43:28.678Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:43:28.679Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:43:28.679Z] Platform:      win32
+[debug] [2018-04-01T16:43:28.679Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:43:28.680Z] Time:          Sun Apr 01 2018 13:43:28 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:43:28.680Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:43:28.732Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:43:28.735Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:43:28.745Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:43:28 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:43:29.686Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:43:29.688Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:43:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:43:30.400Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:43:30.402Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:43:30 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:43:31.319Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:43:34.705Z] Fetching environment
+[debug] [2018-04-01T16:43:34.714Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:43:34 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:43:34.715Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:43:34 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:43:36.229Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:43:36.282Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:43:36.283Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:43:45.292Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:48:42.136Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:48:42.147Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:48:42.148Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:48:42.148Z] Platform:      win32
+[debug] [2018-04-01T16:48:42.148Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:48:42.150Z] Time:          Sun Apr 01 2018 13:48:42 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:48:42.150Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:48:42.197Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:48:42.199Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:48:42.210Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:48:42 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:48:43.665Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:48:43.667Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:48:43 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:48:44.406Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:48:44.409Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:48:44 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:48:45.365Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:48:49.127Z] Fetching environment
+[debug] [2018-04-01T16:48:49.136Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:48:49 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:48:49.137Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:48:49 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:48:50.630Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:48:50.631Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T16:48:51.015Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:49:09.489Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T16:51:00.320Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:51:00.328Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:51:00.328Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:51:00.328Z] Platform:      win32
+[debug] [2018-04-01T16:51:00.329Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:51:00.330Z] Time:          Sun Apr 01 2018 13:51:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:51:00.330Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:51:00.372Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:51:00.374Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:51:00.382Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:51:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:51:01.398Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:51:01.401Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:51:01 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:51:02.060Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:51:02.063Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:51:02 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:51:03.033Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:51:06.587Z] Fetching environment
+[debug] [2018-04-01T16:51:06.595Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:51:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:51:06.596Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:51:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:51:08.113Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:51:08.166Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:51:08.167Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:51:17.299Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T16:55:06.314Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T16:55:06.321Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T16:55:06.322Z] CLI Version:   3.17.7
+[debug] [2018-04-01T16:55:06.322Z] Platform:      win32
+[debug] [2018-04-01T16:55:06.322Z] Node Version:  v8.9.4
+[debug] [2018-04-01T16:55:06.324Z] Time:          Sun Apr 01 2018 13:55:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:55:06.324Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T16:55:06.363Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T16:55:06.365Z] > authorizing via signed-in user
+[debug] [2018-04-01T16:55:06.373Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:55:06 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:55:07.516Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:55:07.519Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 13:55:07 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:55:08.181Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:55:08.183Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 13:55:08 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:55:09.066Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T16:55:13.394Z] Fetching environment
+[debug] [2018-04-01T16:55:13.402Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 13:55:13 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:55:13.403Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 13:55:13 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T16:55:14.816Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T16:55:15.100Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T16:55:15.101Z] Starting @google-cloud/functions-emulator
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T16:55:33.126Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=doussss@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=doussss@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T17:13:14.447Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T17:13:14.454Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T17:13:14.454Z] CLI Version:   3.17.7
+[debug] [2018-04-01T17:13:14.454Z] Platform:      win32
+[debug] [2018-04-01T17:13:14.455Z] Node Version:  v8.9.4
+[debug] [2018-04-01T17:13:14.456Z] Time:          Sun Apr 01 2018 14:13:14 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:13:14.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T17:13:14.496Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T17:13:14.498Z] > authorizing via signed-in user
+[debug] [2018-04-01T17:13:14.506Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:13:14 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:13:15.630Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:13:15.632Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 14:13:15 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:13:16.350Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:13:16.352Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:13:16 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:13:17.321Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T17:13:20.619Z] Fetching environment
+[debug] [2018-04-01T17:13:20.627Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 14:13:20 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:13:20.628Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 14:13:20 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:13:22.158Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:13:22.210Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:13:22.211Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T17:13:30.224Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=dougldaasdas5@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T17:18:11.379Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T17:18:11.386Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T17:18:11.387Z] CLI Version:   3.17.7
+[debug] [2018-04-01T17:18:11.387Z] Platform:      win32
+[debug] [2018-04-01T17:18:11.387Z] Node Version:  v8.9.4
+[debug] [2018-04-01T17:18:11.389Z] Time:          Sun Apr 01 2018 14:18:11 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:18:11.389Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T17:18:11.433Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T17:18:11.436Z] > authorizing via signed-in user
+[debug] [2018-04-01T17:18:11.443Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:18:11 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:18:12.506Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:18:12.508Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 14:18:12 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:18:13.285Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:18:13.288Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:18:13 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:18:14.231Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T17:18:18.505Z] Fetching environment
+[debug] [2018-04-01T17:18:18.516Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 14:18:18 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:18:18.518Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 14:18:18 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:18:19.241Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:18:19.242Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T17:18:19.999Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T17:18:29.436Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T17:20:46.570Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T17:20:46.583Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T17:20:46.584Z] CLI Version:   3.17.7
+[debug] [2018-04-01T17:20:46.584Z] Platform:      win32
+[debug] [2018-04-01T17:20:46.584Z] Node Version:  v8.9.4
+[debug] [2018-04-01T17:20:46.587Z] Time:          Sun Apr 01 2018 14:20:46 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:20:46.587Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T17:20:46.643Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T17:20:46.645Z] > authorizing via signed-in user
+[debug] [2018-04-01T17:20:46.655Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:20:46 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:20:47.823Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:20:47.825Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 14:20:47 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:20:48.484Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:20:48.487Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:20:48 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:20:48.840Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T17:20:52.553Z] Fetching environment
+[debug] [2018-04-01T17:20:52.561Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 14:20:52 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:20:52.562Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 14:20:52 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:20:53.378Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:20:53.380Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T17:20:54.125Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T17:21:01.885Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T17:22:53.884Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T17:22:53.891Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T17:22:53.891Z] CLI Version:   3.17.7
+[debug] [2018-04-01T17:22:53.891Z] Platform:      win32
+[debug] [2018-04-01T17:22:53.892Z] Node Version:  v8.9.4
+[debug] [2018-04-01T17:22:53.893Z] Time:          Sun Apr 01 2018 14:22:53 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:22:53.893Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T17:22:53.933Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T17:22:53.936Z] > authorizing via signed-in user
+[debug] [2018-04-01T17:22:53.943Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:22:53 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:22:54.889Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:22:54.891Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 14:22:54 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:22:55.685Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:22:55.688Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:22:55 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:22:56.588Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T17:23:00.075Z] Fetching environment
+[debug] [2018-04-01T17:23:00.083Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 14:23:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:23:00.084Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 14:23:00 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:23:01.488Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T17:23:01.671Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:23:01.672Z] Starting @google-cloud/functions-emulator
+[info] [hosting] Rewriting /send?to=douglasps95%40gmail.com&name=DOUGLASPIMENTELSIMOES&type=B2C to local function app
+[debug] [2018-04-01T17:23:11.732Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T17:32:50.812Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T17:32:50.819Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T17:32:50.819Z] CLI Version:   3.17.7
+[debug] [2018-04-01T17:32:50.819Z] Platform:      win32
+[debug] [2018-04-01T17:32:50.820Z] Node Version:  v8.9.4
+[debug] [2018-04-01T17:32:50.821Z] Time:          Sun Apr 01 2018 14:32:50 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:50.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T17:32:50.864Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T17:32:50.866Z] > authorizing via signed-in user
+[debug] [2018-04-01T17:32:50.873Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-01T17:32:50.874Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/_aQ9z3XwXogATlw8u22Df73KIMHeWMvURZvWEockLXU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 01 2018 14:32:50 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:51.347Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:32:51.413Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:32:51 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:52.558Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:32:52.559Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 14:32:52 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:53.277Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:32:53.280Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 14:32:53 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:54.212Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T17:32:57.411Z] Fetching environment
+[debug] [2018-04-01T17:32:57.419Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 14:32:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:57.421Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 14:32:57 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T17:32:58.182Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T17:32:58.916Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T17:32:58.917Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T17:33:05.999Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=douglasps95%40gmail.com&name=DOUGLASPIMENTELSIMOES&type=B2C to local function app
+[debug] [2018-04-01T18:04:25.437Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T18:04:25.445Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T18:04:25.446Z] CLI Version:   3.17.7
+[debug] [2018-04-01T18:04:25.447Z] Platform:      win32
+[debug] [2018-04-01T18:04:25.447Z] Node Version:  v8.9.4
+[debug] [2018-04-01T18:04:25.449Z] Time:          Sun Apr 01 2018 15:04:25 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:04:25.449Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T18:04:25.494Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T18:04:25.496Z] > authorizing via signed-in user
+[debug] [2018-04-01T18:04:25.509Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 15:04:25 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:04:26.896Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:04:26.898Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 15:04:26 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:04:27.684Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:04:27.688Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 15:04:27 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:04:28.624Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T18:04:32.231Z] Fetching environment
+[debug] [2018-04-01T18:04:32.239Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 15:04:32 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:04:32.240Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 15:04:32 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:04:33.747Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:04:33.748Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T18:04:34.208Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-01T18:04:43.339Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T18:18:09.890Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T18:18:09.897Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T18:18:09.898Z] CLI Version:   3.17.7
+[debug] [2018-04-01T18:18:09.898Z] Platform:      win32
+[debug] [2018-04-01T18:18:09.898Z] Node Version:  v8.9.4
+[debug] [2018-04-01T18:18:09.900Z] Time:          Sun Apr 01 2018 15:18:09 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:09.901Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T18:18:09.950Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T18:18:09.955Z] > authorizing via signed-in user
+[debug] [2018-04-01T18:18:09.969Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-01T18:18:09.970Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/_aQ9z3XwXogATlw8u22Df73KIMHeWMvURZvWEockLXU',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Apr 01 2018 15:18:09 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:10.495Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:18:10.564Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 15:18:10 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:11.649Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:18:11.651Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 15:18:11 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:12.336Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:18:12.340Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 15:18:12 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:13.339Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T18:18:17.630Z] Fetching environment
+[debug] [2018-04-01T18:18:17.641Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 15:18:17 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:17.642Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 15:18:17 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:18:18.495Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:18:18.500Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T18:18:19.350Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T18:18:35.995Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[debug] [2018-04-01T18:20:17.237Z] ----------------------------------------------------------------------
+[debug] [2018-04-01T18:20:17.244Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Douglas\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-04-01T18:20:17.245Z] CLI Version:   3.17.7
+[debug] [2018-04-01T18:20:17.245Z] Platform:      win32
+[debug] [2018-04-01T18:20:17.245Z] Node Version:  v8.9.4
+[debug] [2018-04-01T18:20:17.247Z] Time:          Sun Apr 01 2018 15:20:17 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:20:17.247Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-01T18:20:17.288Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-01T18:20:17.290Z] > authorizing via signed-in user
+[debug] [2018-04-01T18:20:17.298Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 15:20:17 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:20:18.343Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:20:18.345Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hustler-s-league/tokens  
+  
+ Sun Apr 01 2018 15:20:18 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:20:19.125Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:20:19.127Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hustler-s-league  
+  
+ Sun Apr 01 2018 15:20:19 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:20:20.119Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'L:\Desenvolvimento\Gama\HustlersLeague'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-04-01T18:20:24.611Z] Fetching environment
+[debug] [2018-04-01T18:20:24.619Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905:getServerAppConfig  
+  
+ Sun Apr 01 2018 15:20:24 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:20:24.620Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/725127233905/clients/_:getWebAppConfig  
+  
+ Sun Apr 01 2018 15:20:24 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-04-01T18:20:25.543Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-01T18:20:25.544Z] Starting @google-cloud/functions-emulator
+[debug] [2018-04-01T18:20:26.475Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app
+[debug] [2018-04-01T18:20:35.638Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/hustler-s-league/us-central1/app
+[info] [hosting] Rewriting /send?to=douglasps95@gmail.com&name=DOUGLAS%20PIMENTEL%20SIMOES&type=B2C to local function app

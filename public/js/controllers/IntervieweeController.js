@@ -17,10 +17,14 @@ class IntervieweeController{
     save(event){
         event.preventDefault();
         this._setAnswers();
-        let id = this._dalInterviewee.saveInterviewee(this._newInterviewee());
+        let interviewee = this._newInterviewee();
+        let id = this._dalInterviewee.saveInterviewee(interviewee);
         this._dalQuestions.saveQuestions(this._newQuestionList(id));
 
-        alert('Enviado com sucesso.');       
+        alert('Enviado com sucesso.'); 
+          
+        EmailSenderService.sendEmail(interviewee);
+        
         this._clearInputs();
         window.location.href = "thanksPage.html";
     }

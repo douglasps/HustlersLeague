@@ -30,9 +30,15 @@
             });
 
         var id = 0;
+        var countB2B = 0;
+        var countB2C = 0;
         intervieweeDal.getAll()
             .then(items => {
                 items.forEach(i =>{
+                    if(i.type == 'B2B')
+                        countB2B++;
+                    else if(i.type == 'B2C')
+                        countB2C++;
                     $('#interviewees')
                         .append($(`
                         <tr>
@@ -69,11 +75,41 @@
                         `));
                     id++;
                 });
+                $('#countB2B').text(countB2B);
+                $('#countB2C').text(countB2C);
+
+                $('#metaB2B').html(`<span class="${ countB2B >= 30 ? 'text-success' : 'text-danger' }">30</span>`);
+                $('#metaB2C').html(`<span class="${ countB2B >= 70 ? 'text-success' : 'text-danger' }">70</span>`);
+
+                $('#totalCount').text(items.length);
             });
         });
     </script>
+    <style>
+        span{
+            font-weight: bold;
+            font-size: 20px;
+        }
+    </style>
 </head>
 <body>
+    <div class="row">
+        <div class='col-md-12 text-center'>Contagem - Total: <span id='totalCount'></span></div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 text-right">
+            B2B:
+            <span id="countB2B"></span>
+            meta:
+            <span id="metaB2B"></span>
+        </div>
+        <div class="col-md-6 text-left">
+            B2C:
+            <span id="countB2C"></span>
+            meta:
+            <span id="metaB2C"></span>
+        </div>
+    </div>
     <table class="table">
         <thead>
             <th>Nome completo</th>

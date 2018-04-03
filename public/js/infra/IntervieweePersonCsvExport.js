@@ -12,7 +12,7 @@ class IntervieweePersonCsvExport{
         .then(items => {
             items.forEach(i => {
                 i.questions.forEach(q => {
-                    let columns = [i.email, i.type, '\"'+ q._question + '\"', '\"' + q._answer + '\"'];
+                    let columns = [i.email, i.type, '\"'+ q._question.replace('"', '""') + '\"', '\"' + q._answer.replace('"', '""') + '\"'];
                     let row = columns.join(",");
                     csvContent += row + "\r\n";
                 });

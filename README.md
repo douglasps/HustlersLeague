@@ -1,16 +1,16 @@
 # HustlersLeague
 
-# Instruções de build
-O sistema foi desenvolvido utilizando vscode e sublime, versionado com git, repositório github, hospedado no firebase hosting.
+# Build Instructions
+The system was developed using vscode and sublime, git version control system, github repository and hosted on firebase hosting.
 
-# Persistência
-Os dados foram persistido utilizando firebase em duas referências, uma para as informações dos leadse outra para as perguntas.
+# Data Persistence
+All data was persisted using Firebase, with 2 references, one for the Lead Information and the another one for the Questions.
 
-# Frameworks utilizados
-Foram utilizados os frameworks Bootstrap e jQuery.
+# Frameworks 
+Bootstrap and jQuery frameworks were applied on this project.
 
-# Estratégia de desenvolvimento
+# Development Strategy
 Douglas:
-Responsável pelo desenvolvimento da persistência, código de exportação para csv e ajudou a desenvolver a landing page.
+Responsible for persistence data development code, code to export data to .cvs document and help on landing page development.
 Ana Paula:
-Responsável pela landing page, incluindo layout e design das páginas.
+Responsable for landing page development, including layout and page design.
